@@ -190,3 +190,5 @@ export interface DataSource {
   enabled: boolean;
   credentials?: Record<string, string>;
 }
+
+// ─── Future Integrations ──────────────────────────────────────────────────────
