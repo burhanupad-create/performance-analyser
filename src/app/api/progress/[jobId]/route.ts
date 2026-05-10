@@ -3,6 +3,7 @@ import { getJob } from "@/lib/job-store";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
+export const maxDuration = 300;
 
 // Server-Sent Events endpoint for real-time job progress
 export async function GET(
