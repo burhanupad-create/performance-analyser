@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -H \"Authorization: token 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\" https://api.github.com/repos/burhanupad-create/siteananalyzer)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('exists:', d.get\\('full_name','not found'\\), '| private:', d.get\\('private'\\), '| message:', d.get\\('message',''\\)\\)\")"
+    ]
+  }
+}
